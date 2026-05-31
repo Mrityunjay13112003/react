@@ -9,7 +9,7 @@ function App() {
     
     if(counter < 20)
     {
-      setCounter(++counter);
+      setCounter(counter+1);
       console.log("value increased", counter);
     }
     
@@ -19,7 +19,7 @@ function App() {
     
     if(counter > 0)
     {
-      setCounter(--counter);
+      setCounter(counter-1);
       console.log("value decreased", counter);
     }
     
