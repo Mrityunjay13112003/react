@@ -13,18 +13,18 @@ function App()
 
   function handlePrevious()
   {
-    return step >= 2 ? setStep(step-1) : null;
+    return step >= 2 ? setStep(prevStep => prevStep - 1) : null;
   }
 
   function handleNext()
   {
-    return step <= 2 ? setStep(step+1) : null;
+    return step <= 2 ? setStep(prevStep => prevStep + 1) : null;
   }
 
 
   return (
     <>
-      <button className="close" onClick={() => setIsOpen(!isOpen)}>&times;</button>
+      <button className="close" onClick={() => setIsOpen(prevFlag => !prevFlag)}>&times;</button>
 
       {isOpen && (<div className="steps">
 
