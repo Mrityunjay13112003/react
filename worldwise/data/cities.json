@@ -35,6 +35,30 @@
         "lng": 13.376933665713324
       },
       "id": "98443197"
+    },
+    {
+      "cityName": "Nancy",
+      "country": "France",
+      "emoji": "🇫🇷",
+      "date": "2026-07-03T14:12:09.242Z",
+      "notes": "asdk;lf",
+      "position": {
+        "lat": "48.693063767828974",
+        "lng": "6.177062988281251"
+      },
+      "id": "vzIHZCSu3QM"
+    },
+    {
+      "cityName": "London",
+      "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+      "emoji": "🇬🇧",
+      "date": "2026-07-03T14:12:41.097Z",
+      "notes": "vnjasdkfn",
+      "position": {
+        "lat": "51.49646928152811",
+        "lng": "-0.12084960937500001"
+      },
+      "id": "I3n-hcnmK0Y"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
